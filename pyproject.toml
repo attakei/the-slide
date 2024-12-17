@@ -5,13 +5,19 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "atsphinx-mini18n>=0.4.0",
+    "sphinx-intl>=2.3.1",
     "sphinx-revealjs>=3.0.5",
 ]
 
 [dependency-groups]
 dev = [
+    "doc8>=1.1.2",
     "esbonio>=0.16.5",
+    "lefthook>=1.9.2",
+    "mypy>=1.13.0",
     "ruff>=0.8.3",
+    "sphinx-autobuild>=2024.10.3",
 ]
 
 [build-system]
