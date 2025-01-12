@@ -14,6 +14,11 @@ env:
   SPHINXINTL_TRANSLATOR: "Kazuya Takei <myself@attakei.net>"
 
 tasks:
+  setup:
+    desc: 'Workspace setup'
+    cmds:
+      - 'uv sync --frozen --all-extras'
+      - 'lefthook install'
   intl:
     desc: 'Sync i18n environment'
     dir: '{{.TASKFILE_DIR}}'
