@@ -7,7 +7,12 @@ release = "0.0.0"
 
 # -- General configuration
 extensions = [
+    # Bundiled extensions
+    "sphinx.ext.todo",
+    # My extensions
     "sphinx_revealjs",
+    # Third-party extensions
+    # Itself
     "the_slide",
 ]
 templates_path = ["_templates"]
@@ -16,3 +21,24 @@ exclude_patterns = []
 # -- Options for HTML output
 html_theme = "alabaster"
 html_static_path = ["_static"]
+
+# -- Options for REVEALJS output
+revealjs_style_theme = "css/theme.css"
+revealjs_static_path = ["_static"]
+revealjs_css_files = []
+revealjs_script_conf = {
+    "controls": False,
+    "hash": True,
+    "center": False,
+    "transition": "none",
+}
+revealjs_script_plugins = [
+    {
+        "src": "revealjs/plugin/highlight/highlight.js",
+        "name": "RevealHighlight",
+    },
+    {
+        "src": "revealjs/plugin/notes/notes.js",
+        "name": "RevealNotes",
+    },
+]

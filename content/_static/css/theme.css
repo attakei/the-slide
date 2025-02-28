@@ -1,0 +1,38 @@
+@layer reset, theme, custom;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap")
+	layer(custom);
+@import url("../revealjs/dist/theme/simple.css") layer(theme);
+
+@layer custom {
+	:root {
+		--font-family: "Poppins";
+		--r-main-font: "Poppins";
+		--r-heading-font: "Poppins";
+		--r-heading-size: 3em;
+	}
+
+	* {
+		text-transform: none !important;
+	}
+
+	.reveal .slides {
+		section {
+	    text-align: left;
+			section {
+				h2 {
+					padding-top: 2em;
+					color: white;
+					text-align: center;
+				}
+				h3 {
+					padding-top: 0.5em;
+					margin-bottom: 1em;
+					color: white;
+				}
+				not(h2) {
+					align: left;
+				}
+			}
+		}
+	}
+}
