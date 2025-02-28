@@ -1,0 +1,26 @@
+flowchart LR
+    subgraph Read
+        direction TB
+        S --> R
+        R --> D1
+    end
+    subgraph Transform
+        D2 --> T
+        T --> D3
+    end
+    subgraph Write
+        D4 --> W
+        W --> O
+    end
+    Read --> Transform
+    Transform --> Write
+    S@{ shape: docs, label: "Sources" }
+    R@{ shape: rect, label: "Read" }
+    D1@{ shape: bow-rect, label: "Doctree" }
+    D2@{ shape: bow-rect, label: "Doctree" }
+    T@{ shape: rect, label: "Transform" }
+    D3@{ shape: bow-rect, label: "Modified Doctree" }
+    D4@{ shape: bow-rect, label: "Modified Doctree" }
+    W@{ shape: rect, label: "Transform" }
+    O@{ shape: docs, label: "Outputs" }
+
