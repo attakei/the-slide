@@ -12,6 +12,7 @@ extensions = [
     # My extensions
     "sphinx_revealjs",
     # Third-party extensions
+    "sphinxcontrib.mermaid",
     "sphinxemoji.sphinxemoji",
     # Itself
     "the_slide",
@@ -43,3 +44,7 @@ revealjs_script_plugins = [
         "name": "RevealNotes",
     },
 ]
+pygments_style = "monokai"
+# -- Options for extensions
+# sphinxcontrib.mermaid
+mermaid_version = "11.4.1"
