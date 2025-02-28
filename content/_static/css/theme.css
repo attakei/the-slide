@@ -1,38 +1,52 @@
 @layer reset, theme, custom;
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap")
-	layer(custom);
+  layer(custom);
 @import url("../revealjs/dist/theme/simple.css") layer(theme);
+@import url("../revealjs/plugin/highlight/monokai.css") layer(theme);
 
 @layer custom {
-	:root {
-		--font-family: "Poppins";
-		--r-main-font: "Poppins";
-		--r-heading-font: "Poppins";
-		--r-heading-size: 3em;
-	}
+  :root {
+    --font-family: "Poppins";
+    --r-main-font: "Poppins";
+    --r-heading-font: "Poppins";
+    --r-heading-size: 3em;
+  }
 
-	* {
-		text-transform: none !important;
-	}
+  * {
+    text-transform: none !important;
+  }
 
-	.reveal .slides {
-		section {
-	    text-align: left;
-			section {
-				h2 {
-					padding-top: 2em;
-					color: white;
-					text-align: center;
-				}
-				h3 {
-					padding-top: 0.5em;
-					margin-bottom: 1em;
-					color: white;
-				}
-				not(h2) {
-					align: left;
-				}
-			}
-		}
-	}
+  .reveal .slides {
+    section {
+      text-align: left;
+      section {
+        h2 {
+          padding-top: 2em;
+          color: white;
+          text-align: center;
+        }
+        h3 {
+          padding-top: 0.3em;
+          margin-bottom: 1em;
+        }
+        not(h2) {
+          align: left;
+        }
+      }
+    }
+  }
+  div.flex {
+    display: -webkit-flex;
+    display: flex;
+    div.size-1 {
+      width: 50% !important;
+      -webkit-flex: 1;
+      flex: 1;
+    }
+    div.size-2 {
+      // width: 66.6666666% !important;
+      -webkit-flex: 2;
+      flex: 2;
+  	}
+  }
 }

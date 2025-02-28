@@ -1,4 +1,5 @@
 version = 1
+revision = 1
 requires-python = ">=3.13"
 
 [[package]]
@@ -103,7 +104,7 @@ name = "click"
 version = "8.1.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "colorama", marker = "platform_system == 'Windows'" },
+    { name = "colorama", marker = "sys_platform == 'win32'" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/96/d3/f04c7bfcf5c1862a2a5b845c6b2b360488cf47af55dfa79c98f6a6bf98b5/click-8.1.7.tar.gz", hash = "sha256:ca9853ad459e787e2192211578cc907e7594e294c7ccc834310722b41b9ca6de", size = 336121 }
 wheels = [
@@ -536,6 +537,18 @@ wheels = [
 ]
 
 [[package]]
+name = "sphinxemoji"
+version = "0.3.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "sphinx" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/47/36/12a061ef2a2c2001c1b083d456db680f59074aef39f9cdd83a7937a4d626/sphinxemoji-0.3.1.tar.gz", hash = "sha256:23ecff1f1e765393e49083b45386b7da81ced97c9a18a1dfd191460a97da3b11", size = 46377 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/95/9f/c872bbf4a2588b700a972d48c6e39087e4d33b3e76c563b4902e5abfbf13/sphinxemoji-0.3.1-py3-none-any.whl", hash = "sha256:dae483695f8d1e90a28a6e9bbccc08d256202afcc1d0fbd33b51b3b4352d439e", size = 46074 },
+]
+
+[[package]]
 name = "starlette"
 version = "0.42.0"
 source = { registry = "https://pypi.org/simple" }
@@ -567,6 +580,7 @@ dependencies = [
     { name = "atsphinx-mini18n" },
     { name = "sphinx-intl" },
     { name = "sphinx-revealjs" },
+    { name = "sphinxemoji" },
 ]
 
 [package.dev-dependencies]
@@ -584,6 +598,7 @@ requires-dist = [
     { name = "atsphinx-mini18n", specifier = ">=0.4.0" },
     { name = "sphinx-intl", specifier = ">=2.3.1" },
     { name = "sphinx-revealjs", specifier = ">=3.0.5" },
+    { name = "sphinxemoji", specifier = ">=0.3.1" },
 ]
 
 [package.metadata.requires-dev]

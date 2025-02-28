@@ -12,6 +12,7 @@ extensions = [
     # My extensions
     "sphinx_revealjs",
     # Third-party extensions
+    "sphinxemoji.sphinxemoji",
     # Itself
     "the_slide",
 ]

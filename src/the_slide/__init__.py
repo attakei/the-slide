@@ -17,7 +17,7 @@ def configure_background(app, doctree, docname):
         idx = section.first_child_matching_class(revealjs_vertical)
         if idx is None:
             s = revealjs_vertical()
-            s.attributes["data-background-image"] = "_static/background/3.png"
+            s.attributes["data-background-image"] = "_static/background/4.png"
             s.attributes["data-background-size"] = "auto"
             section.insert(1, s)
 
