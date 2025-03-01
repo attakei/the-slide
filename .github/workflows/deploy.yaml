@@ -1,9 +1,7 @@
-name: Deploy demo presentation
+name: Deploy presentation
 
 on:
   push:
-    tags:
-      - 'v*.*.*'
   workflow_dispatch:
 
 permissions:
@@ -22,7 +20,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: jdx/mise-action@v2
       - name: Make demo page
         run: |
