@@ -13,8 +13,12 @@ extensions = [
     "oembedpy.adapters.sphinx",
     "sphinx_revealjs",
     # Third-party extensions
+    "pyvista.ext.plot_directive",
+    "pyvista.ext.viewer_directive",
+    "sphinx_design",
     "sphinx_nekochan",
     "sphinx_plotly_directive",
+    "sphinxcontrib.asciinema",
     "sphinxcontrib.mermaid",
     "sphinxemoji.sphinxemoji",
     # Itself

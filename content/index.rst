@@ -648,14 +648,14 @@ oEmbedPy
       This is URL of Opening Remarks of PyCon PH 2024
 
    .. oembed:: https://www.youtube.com/watch?v=Cu9JIdlbnbc
-      :maxwidth: 640
-      :maxheight: 640
+      :maxwidth: 720
+      :maxheight: 720
 
 .. revealjs-break::
 
 .. oembed:: https://www.youtube.com/watch?v=Cu9JIdlbnbc
-   :maxwidth: 640
-   :maxheight: 640
+   :maxwidth: 720
+   :maxheight: 720
 
 Plotly
 ------
@@ -674,6 +674,7 @@ Plotly
       fig2 = px.scatter(x=x, y=y, title=title)
 
 .. revealjs-break::
+   :notitle:
 
 .. plotly::
    :fig-vars: fig1, fig2
@@ -686,20 +687,46 @@ Plotly
    fig1 = go.Figure(go.Scatter(x=x, y=y), layout=dict(title=title))
    fig2 = px.scatter(x=x, y=y, title=title)
 
-PyVista(trial)
---------------
+PyVista
+-------
 
-..
-    .. pyvista-plot::
-       :caption: A sphere
-       :include-source: True
+.. code-block:: rst
 
-       >>> import pyvista
-       >>> sphere = pyvista.Sphere()
-       >>> out = sphere.plot()
+   .. pyvista-plot::
 
-Asciinema
+      >>> import pyvista
+      >>> sphere = pyvista.Sphere()
+      >>> out = sphere.plot()
+
+.. revealjs-break::
+   :notitle:
+
+.. pyvista-plot::
+
+   >>> import pyvista
+   >>> sphere = pyvista.Sphere()
+   >>> out = sphere.plot()
+
+asciinema
 ---------
+
+.. code-block:: rst
+
+   .. asciinema:: ./demo.cast
+      :preload: 1
+      :autoplay: 1
+      :rows: 15
+      :cols: 80
+      :terminalfontsize: 16px
+
+.. revealjs-break::
+
+.. asciinema:: ./demo.cast
+   :preload: 1
+   :autoplay: 1
+   :rows: 15
+   :cols: 80
+   :terminalfontsize: 16px
 
 Nekochan
 --------
