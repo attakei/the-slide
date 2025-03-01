@@ -1,0 +1,10 @@
+graph TB
+    D([Document]) --o S1([Section])
+    S1 --o T1([Title])
+    S1 --o P([Paragraph])
+    S1 --o S2([Section])
+    S2 --o T2([Title])
+    S2 --o L([List])
+    L --o I1([Item])
+    L --o I2([Item])
+    S2 --o C([CodeBlock])
