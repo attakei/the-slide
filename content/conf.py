@@ -10,8 +10,11 @@ extensions = [
     # Bundiled extensions
     "sphinx.ext.todo",
     # My extensions
+    "oembedpy.adapters.sphinx",
     "sphinx_revealjs",
     # Third-party extensions
+    "sphinx_nekochan",
+    "sphinx_plotly_directive",
     "sphinxcontrib.mermaid",
     "sphinxemoji.sphinxemoji",
     # Itself
