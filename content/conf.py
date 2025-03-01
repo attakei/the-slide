@@ -8,6 +8,7 @@ release = "0.0.0"
 # -- General configuration
 extensions = [
     # Bundiled extensions
+    "sphinx.ext.githubpages",
     "sphinx.ext.todo",
     # My extensions
     "oembedpy.adapters.sphinx",
