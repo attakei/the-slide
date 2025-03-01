@@ -24,18 +24,19 @@
   	}
     section {
       text-align: left;
-      section {
+      section:has(h2) {
+        text-align: center;
         h2 {
           padding-top: 2em;
-          color: white;
-          text-align: center;
         }
+        * {
+          color: white;
+        }
+      }
+      section {
         h3 {
           padding-top: 0.3em;
           margin-bottom: 1em;
-        }
-        not(h2) {
-          align: left;
         }
       }
     }
