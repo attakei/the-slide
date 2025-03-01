@@ -28,6 +28,7 @@ jobs:
       - uses: jdx/mise-action@v2
       - name: Make demo page
         run: |
+          pnpm i
           uv sync --no-dev
           task build-revealjs
       - name: Upload artifact

@@ -56,3 +56,5 @@ pygments_style = "monokai"
 # -- Options for extensions
 # sphinxcontrib.mermaid
 mermaid_version = "11.4.1"
+mermaid_output_format = "svg"
+mermaid_cmd = "pnpm mmdc"
