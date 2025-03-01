@@ -7,8 +7,11 @@ Mastering Sphinx Extensions
 
 .. revealjs-notes:: 
 
-    これから発表を始めます。
-    タイトルはスライドの通り<タイトル名>です。
+   I will now begin my presentation.
+   The title is <title name> as shown on the slide.
+
+   これから発表を始めます。
+   タイトルはスライドの通り<タイトル名>です。
 
 Enhancing the Document Builder to Create Presentations
 
@@ -20,10 +23,15 @@ Speaker introduction
 
 .. revealjs-notes:: 
 
+   My name is Kazuya Takei.
+   I work as a software engineer in Japan.
+   In my free time, I mainly write Sphinx extensions as a hobby.
+   My birthday was three days ago, and I've decided to take on a new challenge in the new year.
+   
    私の名前は「武居和也」です。
    日本でソフトウェアエンジニアとして働いています。
    プライベートでは、主にSphinx拡張を趣味で書いています。
-   一昨日が誕生日でしたが、新しい年に新しい挑戦をさせてくれてありがとうございます。
+   3日前が誕生日でしたが、新しい年に新しい挑戦をすることになりました。
 
 .. container:: flex
 
@@ -39,12 +47,17 @@ Speaker introduction
  
 .. revealjs-fragments:: 
 
-   **My birth is Feb, 27th (before yesterday!)**
+   **My birth is Feb, 27th (3days ago!)**
 
 Outline of this talk
 --------------------
 
 .. revealjs-notes:: 
+
+    Here is the outline of this talk.
+    First, I will talk about an overview of Sphinnx and how it can be extended.
+    Next, I will talk about sphinx-revealjs, which is the basis of this talk.
+    Finally, you will see a showcase of presentation content that uses sphinx-revealjs.
 
     今回のトークのアウトラインです。
     最初に、Sphinnxの概要と拡張の仕組みについて話します。
@@ -60,9 +73,13 @@ Excuse me
 
 .. revealjs-notes::
 
-    申し訳ないのですが、英語ができる方ではありません。
-    もし自分がうまく聞き取れなさそうであれば、後ほど以下のSNSやGitHubリポジトリにテキストで質問を投げかけてください。
-    可能な限り答えます。
+   I'm not very good at English.
+   If you can't hear me well, please send me questions later via text on social media.
+   I'll try to answer as best I can.
+   
+   私は英語があまりできる方ではありません。
+   もし自分がうまく聞き取れなさそうであれば、後ほどSNSなどにテキストで質問を投げかけてください。
+   可能な限り答えます。
 
 * I am not good to use English.
 * Please post questions as text if you can.
@@ -75,17 +92,24 @@ Sphinx overview
 
 .. revealjs-notes:: 
 
-    まずは、Sphinxの紹介から始めます。
+   First, let's start with an introduction to Sphinx.
+
+   まずは、Sphinxの紹介から始めます。
 
 Ask questions for you
 ---------------------
 
 .. revealjs-notes:: 
 
-    せっかくなので、簡単な質問を投げさせてください。
-    もしYesであれば手を上げてください。
-
-    最後まで手を上げた人は、しばらく知っている内容が続くかもしれません。
+   Since we're here, let me ask a quick question.
+   If it's "yes," please raise your hand.
+   -
+   Those of you who raise your hand until the end may already be familiar with the content.
+   ---
+   せっかくなので、簡単な質問を投げさせてください。
+   もしYesであれば手を上げてください。
+   
+   最後まで手を上げた人は、しばらく知っている内容が続くかもしれません。
 
 Please raise a hand if Yes.
 
@@ -100,9 +124,13 @@ What is Sphinx?
 
 .. revealjs-notes:: 
 
-    Sphinxは「Python製のドキュメントジェネレーター」です。
-    プレーンテキストのソースをもとに、様々な出力を行います。
-    ソースにreStructuredTextを用いつつ、多くの機能を提供します。
+   Sphinx is a Python documentation generator.
+   It produces various outputs based on a plain text source.
+   It uses reStructuredText as its source and provides many functions.
+   ---
+   Sphinxは「Python製のドキュメントジェネレーター」です。
+   プレーンテキストのソースをもとに、様々な出力を行います。
+   ソースにreStructuredTextを用いつつ、多くの機能を提供します。
 
 .. container:: flex
    
@@ -121,9 +149,13 @@ What is Sphinx?
 
 .. revealjs-notes:: 
 
-    Sphinxは様々なファイルの入出力に対応しています。
-    入力ソースとしては、reStructuredTextやMarkdownを利用できます。
-    出力先としては、HTML、EPUB、PDFを始め、多くの種類があります。
+   Sphinx supports a variety of file input and output.
+   Input sources can include reStructuredText and Markdown.
+   Output destinations include many types, including HTML, EPUB, and PDF.
+   ---
+   Sphinxは様々なファイルの入出力に対応しています。
+   入力ソースとしては、reStructuredTextやMarkdownを利用できます。
+   出力先としては、HTML、EPUB、PDFを始め、多くの種類があります。
 
 .. container:: flex
    
