@@ -1,4 +1,8 @@
 flowchart LR
+    subgraph Init
+        direction BT
+        C --> A
+    end
     subgraph Read
         direction TB
         S --> R
@@ -12,8 +16,11 @@ flowchart LR
         D4 --> W
         W --> O
     end
+    Init --> Read
     Read --> Transform
     Transform --> Write
+    A@{ shape: rounded, label: 'App'}
+    C@{ shape: rounded, label: 'Conf,Extensions,Builder'}
     S@{ shape: docs, label: "Sources" }
     R@{ shape: rect, label: "Read" }
     D1@{ shape: bow-rect, label: "Doctree" }
@@ -23,4 +30,4 @@ flowchart LR
     D4@{ shape: bow-rect, label: "Modified Doctree" }
     W@{ shape: rect, label: "Transform" }
     O@{ shape: docs, label: "Outputs" }
-    style Read fill:aqua;
+    style Init fill:aqua;
