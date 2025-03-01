@@ -25,7 +25,7 @@ jobs:
       - name: Make demo page
         run: |
           uv sync --no-dev
-          uv run make revealjs
+          task build-revealjs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
