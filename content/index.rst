@@ -76,7 +76,7 @@ Excuse me
    
    私は英語があまりできる方ではありません。
    もし自分がうまく聞き取れなさそうであれば、後ほどSNSなどにテキストで質問を投げかけてください。
-    可能な限り答えます。
+   可能な限り答えます。
 
 * I am not good to use English.
 * Please post questions as text if you can.
@@ -103,10 +103,9 @@ Ask questions for you
    -
    Those of you who raise your hand until the end may already be familiar with the content.
    ---
-    せっかくなので、簡単な質問を投げさせてください。
-    もしYesであれば手を上げてください。
-
-    最後まで手を上げた人は、しばらく知っている内容が続くかもしれません。
+   せっかくなので、簡単な質問を投げさせてください。
+   もしYesであれば手を上げてください。
+   最後まで手を上げた人は、しばらく知っている内容が続くかもしれません。
 
 Please raise a hand if Yes.
 
@@ -125,9 +124,9 @@ What is Sphinx?
    It produces various outputs based on a plain text source.
    It uses reStructuredText as its source and provides many functions.
    ---
-    Sphinxは「Python製のドキュメントジェネレーター」です。
-    プレーンテキストのソースをもとに、様々な出力を行います。
-    ソースにreStructuredTextを用いつつ、多くの機能を提供します。
+   Sphinxは「Python製のドキュメントジェネレーター」です。
+   プレーンテキストのソースをもとに、様々な出力を行います。
+   ソースにreStructuredTextを用いつつ、多くの機能を提供します。
 
 .. container:: flex
    
@@ -150,9 +149,9 @@ What is Sphinx?
    Input sources can include reStructuredText and Markdown.
    Output destinations include many types, including HTML, EPUB, and PDF.
    ---
-    Sphinxは様々なファイルの入出力に対応しています。
-    入力ソースとしては、reStructuredTextやMarkdownを利用できます。
-    出力先としては、HTML、EPUB、PDFを始め、多くの種類があります。
+   Sphinxは様々なファイルの入出力に対応しています。
+   入力ソースとしては、reStructuredTextやMarkdownを利用できます。
+   出力先としては、HTML、EPUB、PDFを始め、多くの種類があります。
 
 .. container:: flex
    
@@ -1181,16 +1180,17 @@ sphinx-nekochan
 
 .. code-block:: rst
 
-   .. list-table:: 
+   .. container: r-fit-text
    
-      * - :nekochan:`clap-nya;3em`
-        - :nekochan:`beer-nya;3em`
-        - :nekochan:`isogu-nya;3em`
-        - :nekochan:`jikan-nya;3em`
-      * - :nekochan:`kamon-nya;3em`
-        - :nekochan:`kiku-nya;3em`
-        - :nekochan:`mita-nya;3em`
-        - :nekochan:`peace-nya;3em`
+      :nekochan:`clap-nya;3em`
+      :nekochan:`beer-nya;3em`
+      :nekochan:`isogu-nya;3em`
+      :nekochan:`jikan-nya;3em`
+      
+      :nekochan:`kamon-nya;3em`
+      :nekochan:`kiku-nya;3em`
+      :nekochan:`mita-nya;3em`
+      :nekochan:`peace-nya;3em`
 
 .. revealjs-break:: 
 
@@ -1200,16 +1200,17 @@ sphinx-nekochan
    ---
    フィリピンには猫がいっぱいいますね。
 
-.. list-table:: 
+.. container: r-fit-text
 
-   * - :nekochan:`clap-nya;3em`
-     - :nekochan:`beer-nya;3em`
-     - :nekochan:`isogu-nya;3em`
-     - :nekochan:`jikan-nya;3em`
-   * - :nekochan:`kamon-nya;3em`
-     - :nekochan:`kiku-nya;3em`
-     - :nekochan:`mita-nya;3em`
-     - :nekochan:`peace-nya;3em`
+   :nekochan:`clap-nya;3em`
+   :nekochan:`beer-nya;3em`
+   :nekochan:`isogu-nya;3em`
+   :nekochan:`jikan-nya;3em`
+   
+   :nekochan:`kamon-nya;3em`
+   :nekochan:`kiku-nya;3em`
+   :nekochan:`mita-nya;3em`
+   :nekochan:`peace-nya;3em`
 
 There are many cats in Philippines!!
 
