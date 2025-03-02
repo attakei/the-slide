@@ -1218,7 +1218,7 @@ sphinx-nekochan
 
 .. code-block:: rst
 
-   .. container: r-fit-text
+   .. container:: r-fit-text
    
       :nekochan:`clap-nya;3em`
       :nekochan:`beer-nya;3em`
@@ -1238,7 +1238,7 @@ sphinx-nekochan
    ---
    フィリピンには猫がいっぱいいますね。
 
-.. container: r-fit-text
+.. container:: r-fit-text
 
    :nekochan:`clap-nya;3em`
    :nekochan:`beer-nya;3em`
