@@ -242,7 +242,7 @@ Not Python:
 
 ..
    * Linux Kernel
-   * phpMyAdmin (Web application to manage MySQL by PHP)
+   * phpMyAdmin (Ib application to manage MySQL by PHP)
    * Carlire (Desktop application to manage e-books)
    * Fortlan language.
 
@@ -528,7 +528,7 @@ Extend Sphinx
 
 .. revealjs-notes:: 
 
-   We have explained the steps for generating content using the Sphinx core.
+   I have explained the steps for generating content using the Sphinx core.
    You can expect the necessary functionality using just the core.
    
    However, sometimes it is not enough.
@@ -1022,7 +1022,7 @@ Benefits for users
 
 .. revealjs-notes:: 
 
-   We have introduced sphinx-revealjs, but what are the benefits?
+   I have introduced sphinx-revealjs, but what are the benefits?
    You can write presentations in the same way as documentation.
    You can embed a lot of content using Python through the Sphinx extension.
    You can manage the source of content in plain text, which makes it easier to manage in the repository.
