@@ -1220,15 +1220,10 @@ sphinx-nekochan
 
    .. container:: r-fit-text
    
-      :nekochan:`clap-nya;3em`
-      :nekochan:`beer-nya;3em`
-      :nekochan:`isogu-nya;3em`
-      :nekochan:`jikan-nya;3em`
-      
-      :nekochan:`kamon-nya;3em`
-      :nekochan:`kiku-nya;3em`
-      :nekochan:`mita-nya;3em`
-      :nekochan:`peace-nya;3em`
+      :nekochan:`clap-nya`
+      :nekochan:`beer-nya`
+      :nekochan:`isogu-nya`
+      :nekochan:`jikan-nya`
 
 .. revealjs-break:: 
 
@@ -1240,15 +1235,10 @@ sphinx-nekochan
 
 .. container:: r-fit-text
 
-   :nekochan:`clap-nya;3em`
-   :nekochan:`beer-nya;3em`
-   :nekochan:`isogu-nya;3em`
-   :nekochan:`jikan-nya;3em`
-   
-   :nekochan:`kamon-nya;3em`
-   :nekochan:`kiku-nya;3em`
-   :nekochan:`mita-nya;3em`
-   :nekochan:`peace-nya;3em`
+   :nekochan:`clap-nya`
+   :nekochan:`beer-nya`
+   :nekochan:`isogu-nya`
+   :nekochan:`jikan-nya`
 
 There are many cats in Philippines!!
 
