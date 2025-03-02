@@ -711,15 +711,19 @@ Sphinx has many "events"
 .. revealjs-notes::
 
    Here is an image summarizing the events from the Sphnx documentation.
-   You don't need to know everything, just research it as you need to.
    ---
    これは、Sphnxのドキュメントにあるイベントをまとめた画像です。
-   全部を知る必要はありません。必要に応じて調べましょう。
 
 .. figure:: https://www.sphinx-doc.org/en/master/_images/graphviz-8f41e3505b1f58d16c8c77a9ed7d9562fac30e74.png
    :width: 80%
 
 .. revealjs-break::
+
+.. revealjs-notes::
+
+   You don't need to know everything, just research it as you need to.
+   ---
+   全部を知る必要はありません。必要に応じて調べましょう。
 
 .. container:: r-fit-text
 
@@ -823,8 +827,10 @@ Demo
 
 **This presentation is also made by sphinx-revealjs!!**
 
-Website: https://attakei.github.io/the-slide/
-Repository: https://github.com/attakei/the-slide/
+* | Website: 
+  | https://attakei.github.io/the-slide/
+* | Repository:
+  | https://github.com/attakei/the-slide/
 
 This works on "Init" and "Write" phases
 ---------------------------------------
@@ -841,7 +847,7 @@ Writer create HTML that is for Reveal.js format instead of documentation format.
 
 .. revealjs-break:: 
 
-.. revealjs-notes:: 
+.. revealjs-notes::
 
    Here is a very simple reStructuredText source.
 
@@ -1005,10 +1011,10 @@ Contents of this is hidden from readers.
 This is to extend Sphinx's ``code-block`` using animation.
 
 .. revealjs-code-block:: rst
-   :data-line-numbers: 1,2|4-6|4|5|6
+   :data-line-numbers: 1,2|4-5|7|8|9|7-9
 
    .. revealjs-code-block:: rst
-      :data-line-numbers: 1,2|4-6|4|5|6
+      :data-line-numbers: 1,2|4-5|7|8|9|7-9
 
       Hello world
       ===========
@@ -1147,11 +1153,13 @@ Plotly
 PyVista
 -------
 
-"PyVista" is a library that can display 3D objects.
-It has a Sphinx extension and displays the contents specified in the directive options. In the "Interactive Scene" you can actually move the angle of the object.
----
-"PyVista"  は3Dオブジェクトを表示することができるライブラリです。
-Sphinx拡張が存在しており、ディレクティブのオプションで指定した内容を表示します。"Interactive Scene"では実際にオブジェクトの角度を動かすことも出来ます。
+.. revealjs-notes:: 
+
+   "PyVista" is a library that can display 3D objects.
+   It has a Sphinx extension and displays the contents specified in the directive options. In the "Interactive Scene" you can actually move the angle of the object.
+   ---
+   "PyVista"  は3Dオブジェクトを表示することができるライブラリです。
+   Sphinx拡張が存在しており、ディレクティブのオプションで指定した内容を表示します。"Interactive Scene"では実際にオブジェクトの角度を動かすことも出来ます。
 
 .. code-block:: rst
 
