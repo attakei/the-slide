@@ -641,9 +641,27 @@ Edit your ``conf.py`` of document.
 
 .. revealjs-break::
 
-.. todo:: Print console-result
+.. revealjs-notes:: 
+
+   If you start building the document in this state, the print command we just implemented will be executed.
+   ---
+   この状態でドキュメントのビルドを開始すれば、先ほど実装したprintが実行されています。
 
 .. code-block:: console
+
+   Running Sphinx v8.2.1
+   loading translations [en]... done
+   Working this extension!           <=== Inserted!!
+   loading pickled environment... done
+   building [mo]: targets for 0 po files that are out of date
+   writing output...
+   building [revealjs]: targets for 0 source files that are out of date
+   updating environment: [extensions changed ('2')] 1 added, 0 changed, 0 removed
+   reading sources... [100%] index
+   looking for now-outdated files... none found
+   pickling environment... done
+   checking consistency... done
+   preparing documents... done
 
 Adding behaivors
 ----------------
@@ -756,11 +774,23 @@ You can:
    Reveal.jsはJavaScript製のHTMLプレゼンテーションライブラリです。
    そのため、SphnixとReveal.jsのどちらのエコシステムを利用できます。
 
-Sphinx x Reveal.js
+.. container:: flex
 
-* | Work on Sphinx ecosystem
-  | = Supports many Sphinx extensions
-* Design Reveal.js and ecosystem.
+   .. container:: size-2
+
+      Sphinx x Reveal.js
+
+      * | Work on Sphinx ecosystem
+        | = Supports many Sphinx extensions
+      * Layout by Reveal.js and work on ecosystem.
+
+   .. container:: size-1
+
+      .. image:: _static/images/sphinx-logo.svg
+         :width: 240px
+      
+      .. image:: _static/images/reveal-symbol.svg
+         :width: 240px
 
 Motivation
 ----------
