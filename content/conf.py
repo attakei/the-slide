@@ -57,7 +57,8 @@ pygments_style = "monokai"
 # sphinxcontrib.mermaid
 mermaid_version = "11.4.1"
 mermaid_output_format = "svg"
-mermaid_cmd = "pnpm mmdc"
+mermaid_cmd = "pnpm mmdc -p puppeteer-config.json"
+
 
 def setup(app) -> dict:
     print("Working this extension!")
