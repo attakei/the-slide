@@ -3,7 +3,7 @@
 project = "the-slide"
 copyright = "2024, Kazuya Takei"
 author = "Kazuya Takei"
-release = "0.0.0"
+release = "1.0.1"
 
 # -- General configuration
 extensions = [
