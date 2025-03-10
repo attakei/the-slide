@@ -25,5 +25,7 @@ jobs:
       - name: Make demo page
         run: |
           pnpm i
+          pnpm i puppeteer
+          pnpm puppeteer browsers install chrome-headless-shell
           uv sync --no-dev
           task build-revealjs

@@ -11,6 +11,7 @@
     --r-main-font: "Poppins";
     --r-heading-font: "Poppins";
     --r-heading-size: 3em;
+    --r-heading1-size: 2.5em;
   }
 
   * {
@@ -28,6 +29,9 @@
   	}
     section {
       text-align: left;
+      h1 {
+        padding-top: 1em;
+      }
       section:has(h2) {
         text-align: center;
         h2 {
