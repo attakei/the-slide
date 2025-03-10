@@ -2,6 +2,8 @@ name: Deploy presentation
 
 on:
   push:
+    tags:
+      - 'v*.*.*'
   workflow_dispatch:
 
 permissions:
