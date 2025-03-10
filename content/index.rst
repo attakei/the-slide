@@ -1234,6 +1234,8 @@ There are many cats in Philippines!!
 Enjoy presentation by documentation!!
 =====================================
 
+`[Feedback at here!] <https://github.com/attakei/the-slide>`_
+
 .. revealjs-notes::
 
    This concludes my presentation.
