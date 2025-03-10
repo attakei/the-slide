@@ -12,6 +12,14 @@ Mastering Sphinx Extensions
 
 Enhancing the Document Builder to Create Presentations
 
+.. revealjs-break::
+   :notitle:
+
+NOTE:
+
+* This presentation is applied some patches after talk.
+* It does not change about content.
+
 Introduction
 ============
 
