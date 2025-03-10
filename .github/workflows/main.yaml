@@ -1,0 +1,29 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - '**'
+  pull_request:
+  workflow_dispatch:
+
+env:
+  UV_NO_SYNC: 1
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: awalsh128/cache-apt-pkgs-action@v1.4.3
+        with:
+          packages: libosmesa6-dev libgl1-mesa-dev python3-tk pandoc git-restore-mtime
+          version: 3.0
+      - uses: jdx/mise-action@v2
+      - name: Make demo page
+        run: |
+          pnpm i
+          uv sync --no-dev
+          task build-revealjs
