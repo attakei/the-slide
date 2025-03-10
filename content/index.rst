@@ -73,25 +73,6 @@ Outline of this talk
 * Approach to build presentations by Sphinx using sphinx-revealjs.
 * Show case for power of Sphinx and sphinx-revealjs.
 
-Excuse me
----------
-
-.. revealjs-notes::
-
-   I'm not very good at English.
-   If you can't hear me well, please send me questions later via text on social media.
-   I'll try to answer as best I can.
-
-   私は英語があまりできる方ではありません。
-   もし自分がうまく聞き取れなさそうであれば、後ほどSNSなどにテキストで質問を投げかけてください。
-   可能な限り答えます。
-
-* I am not good to use English.
-* Please post questions as text if you can.
-
-  * https://x.com/attakei
-  * https://github.com/attakei/slides
-
 Sphinx overview
 ===============
 
