@@ -7,7 +7,7 @@ release = "1.0.1"
 
 # -- General configuration
 extensions = [
-    # Bundiled extensions
+    # Bundled extensions
     "sphinx.ext.githubpages",
     "sphinx.ext.todo",
     # My extensions
