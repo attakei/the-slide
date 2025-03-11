@@ -45,6 +45,8 @@ revealjs_script_conf = {
     "hash": True,
     "center": False,
     "transition": "none",
+    "width": 1280,
+    "height": 720,
 }
 revealjs_script_plugins = [
     {
