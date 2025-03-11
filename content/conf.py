@@ -5,7 +5,7 @@ import os
 project = "the-slide"
 copyright = "2024, Kazuya Takei"
 author = "Kazuya Takei"
-release = "1.0.1"
+release = "1.0.2"
 
 # -- General configuration
 extensions = [
