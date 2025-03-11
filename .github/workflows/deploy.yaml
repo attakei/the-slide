@@ -34,6 +34,7 @@ jobs:
           pnpm i puppeteer
           pnpm puppeteer browsers install chrome-headless-shell
           uv sync --no-dev
+          uv run playwright install chromium
           task build-revealjs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
