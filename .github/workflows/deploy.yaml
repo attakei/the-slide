@@ -36,6 +36,8 @@ jobs:
           uv sync --no-dev
           uv run playwright install chromium
           task build-revealjs
+        env:
+          SITE_URLBASE: ${{ secrets.SITE_URLBASE }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
