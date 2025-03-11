@@ -1,3 +1,6 @@
+:og:image: _images/ogp/index.png
+:og:description: This presentation is talk at PyCon APAC 2025
+
 ===========================
 Mastering Sphinx Extensions
 ===========================
