@@ -15,6 +15,7 @@ extensions = [
     # My extensions
     "oembedpy.adapters.sphinx",
     "sphinx_revealjs",
+    "sphinx_revealjs.ext.oembed",
     "sphinx_revealjs.ext.screenshot",
     # Third-party extensions
     "pyvista.ext.plot_directive",
@@ -72,3 +73,5 @@ ogp_custom_meta_tags = [
     '<meta name="twitter:site" content="@attakei" >',
 ]
 ogp_enable_meta_description = True
+# sphinx_revealjs.ext.oembed
+revealjs_oembed_urlbase = ogp_site_url[:-1]
